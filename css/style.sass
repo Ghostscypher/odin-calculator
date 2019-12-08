@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+body
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+
+button
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    outline: 0;
+
+input
+    color: #000;
+
+.calc-content
+    margin: auto;
+    background: rgb(56, 54, 54);
+    height: 600px;
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+
+.calc-welcome
+    text-align: center;
+    font-weight: 1em !important;
+    padding: 1em;
+    color: #fff !important;
+
+.calc-display
+    margin: auto;
+    width: 95%;
+    height: 15%;
+    border: solid .5em rgb(85, 85, 85);
+    background: pink;
+    padding: .2em;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    input
+        border: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        font-family: 'Orbitron', sans-serif;
+        box-sizing: border-box;
+
+
+.calc-numbers-display
+    background: #a2c295;
+    width: 100%;
+    height: 65%;
+
+    input
+        font-size: 1.5em;
+        padding: 0 .3em;
+        outline: 0;
+
+.calc-answer-display
+    width: 100%;
+    height: 35%;
+    background: #a2c295;
+    float: right;
+
+    input
+        text-align: right;
+        font-size: 1em;
+        outline: 0;
+
+.calc-numbers-section
+    width: 95%;
+    height: 70%;
+    margin: auto;
+    background: rgb(85, 85, 85);
+    margin-top: .5em;
+
+.calc-misc-buttons
+    margin: auto;
+    width: 95%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+
+    button
+        margin: .2em;
+    
+    #btn-clear, #btn-del, #btn-opening-bracket, #btn-closing-bracket
+        background: rgb(196, 102, 102);
+
+        &:hover
+            background: lighten(rgb(196, 102, 102), 15)
+
+    #btn-opening-bracket, #btn-closing-bracket
+        box-sizing: border-box;
+        padding: 0 1.5em;
+        font-size: 1em;
+
+.calc-buttons
+    background: rgb(56, 54, 54);
+    margin: auto;
+    width: 95%;
+    height: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: .5em;
+
+    button
+        margin: 4px;
+        font-weight: bolder !important;
+        font-size: 2em;
+
+.operators
+    background: rgb(31, 30, 30);
+    color: #fff;
+
+    &:hover
+        background:  rgb(12, 12, 12);
+
+.calc-button
+    background: #bebebe
+    color: #000;
+
+    &:hover
+        background:#fff
+
+.equals-operator
+    background: #ce5626;
+    color: #fff;
+
+    &:hover
+        background: lighten(#ce5626, 10);

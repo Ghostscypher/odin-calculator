@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Odin calculator project</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="calc-content">
+        <div class="calc-welcome">Welcome to the basic calculator</div>
+        
+        <div class="calc-display">
+            <div class="calc-numbers-display">
+                <input type="text" readonly id="number-display" value="">
+            </div>
+            <div class="calc-answer-display">
+                <input type="text" readonly id="answer-display">
+            </div>
+        </div>
+
+        <div class="calc-numbers-section">
+            <div class="calc-misc-buttons">
+                <button id="btn-opening-bracket"> ( </button>
+                <button id="btn-closing-bracket"> ) </button>
+                <button id="btn-del">Del</button>
+                <button id="btn-clear">Clear</button>
+            </div>
+
+            <div class="calc-buttons"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- Scripts -->
+<script src="js/calculate.js"></script>
+<script src="js/grid.js"></script>
